@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkout - 404Notfound</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="p-4 bg-black shadow-md flex justify-between items-center">
+    <h1 class="text-2xl font-bold">404Notfound</h1>
+    <nav>
+      <a href="index.html" class="mx-2 hover:text-green-400">Home</a>
+      <a href="shop.html" class="mx-2 hover:text-green-400">Shop</a>
+      <a href="checkout.html" class="mx-2 text-green-400">Checkout</a>
+      <a href="payment.html" class="mx-2 hover:text-green-400">Payment</a>
+    </nav>
+  </header>
+
+  <main class="max-w-xl mx-auto px-4 py-10">
+    <h2 class="text-3xl font-bold mb-6 text-center">Order Confirmation</h2>
+    <form action="payment.html" method="GET" class="space-y-6">
+      <input type="text" placeholder="Full Name" required class="w-full p-3 rounded bg-gray-800 border border-gray-700"/>
+      <input type="email" placeholder="Email Address" required class="w-full p-3 rounded bg-gray-800 border border-gray-700"/>
+      <input type="text" placeholder="Tool or Product Name" required class="w-full p-3 rounded bg-gray-800 border border-gray-700"/>
+      <input type="number" placeholder="Amount (USD)" required class="w-full p-3 rounded bg-gray-800 border border-gray-700"/>
+      <button type="submit" class="w-full bg-green-600 hover:bg-green-700 p-3 rounded font-bold">Proceed to Payment</button>
+    </form>
+  </main>
+
+  <footer class="text-center p-4 text-gray-400 mt-16">
+    &copy; 2025 404Notfound | Telegram: <a href="https://t.me/Hacker_bally" class="text-blue-400">@Hacker_bally</a> | WhatsApp: 07071912880
+  </footer>
+</body>
+</html>
